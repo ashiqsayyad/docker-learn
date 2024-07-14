@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Select item in drop down and click the button Say Selected:
+<select id="mySelect">
+  <option>Hello Docker</option>
+  <option>Hello K8s</option>
+  <option>Hello Dockerhub</option>
+  <option>Hello its cool</option>
+</select>
+
+<button type="button" onclick="saySelected()">Say Selected</button>
+
+<script>
+function saySelected() {
+  var x = document.getElementById("mySelect").selectedIndex;
+  var y = document.getElementById("mySelect").options;
+  alert("Index: " + y[x].index + " is " + y[x].text);
+}
+</script>
+
+</body>
+</html>
