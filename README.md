@@ -1,2 +1,2 @@
 # docker-learn
-Repo to learn about demo concepts
+Repo to learn about docker concepts
