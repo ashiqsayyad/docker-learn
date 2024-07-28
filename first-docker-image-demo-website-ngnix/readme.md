@@ -16,7 +16,7 @@ how to find the index.html path inside nginx container
 
  Then exec into container and open sh shell inside container with below command
 
- docker exec -it <containr id> sh 
+ docker exec -it containrid sh 
 
  then run following inside container
 
